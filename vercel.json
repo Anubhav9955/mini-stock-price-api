@@ -9,9 +9,5 @@
       "src": "frontend",
       "use": "@vercel/static"
     }
-  ],
-  "env": {
-    "MONGODB_URI": "@your-mongodb-uri",
-    "OTHER_VARIABLE": "value"
-  }
+  ]
 }
