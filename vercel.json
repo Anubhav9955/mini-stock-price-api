@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "frontend",
+      "use": "@vercel/static"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "@your-mongodb-uri",
+    "OTHER_VARIABLE": "value"
+  }
+}
